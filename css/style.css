@@ -48,6 +48,22 @@ html {
   -ms-overflow-style: scrollbar;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
+.publication-section {
+  width: 100%;
+  min-width: 0;
+}
+
+.publication-section ul {
+  padding-left: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.publication-section li {
+  margin-bottom: 0.75rem;
+  line-height: 1.7;
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
 @-ms-viewport {
   width: device-width; }
 
